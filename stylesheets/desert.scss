@@ -1,0 +1,130 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../helpers/variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+
+    >.col,
+    >[class*="col-"] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+.bg-cover {
+    background-position: center center;
+    background-size: cover;
+}
+
+.header-info {
+    background-image: url(../img/buytoy.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.header-info h3 {
+    writing-mode: vertical-rl;
+    font-size: 38px;
+    color: rgba(32, 43, 34, 0.76);
+    line-height: 0.6;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.header-info h3 p {
+    display: inline-block;
+    height: 70px;
+    width: 1px;
+    padding-top: 5px;
+    background: #3F5D45;
+}
+
+.header-info h5 {
+    writing-mode: vertical-rl;
+    color: rgba(32, 43, 34, 0.76);
+    line-height: 0.6;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.header-info h5 p {
+    display: inline-block;
+    height: 35px;
+    width: 1px;
+    padding-top: 5px;
+    background: #3F5D45;
+}
+
+.list-set:hover {
+    background-color: #FFE180;
+}
+
+.toy-header-a {
+    background-image: url(../img/car.jpg);
+    height: 300px;
+    position: relative;
+}
+
+.toy-header-b {
+    background-image: url(../img/doll.jpg);
+    height: 300px;
+    position: relative;
+}
+
+.toy-header-c {
+    background-image: url(../img/animal.jpg);
+    height: 300px;
+    position: relative;
+}
+
+.toy-header-d {
+    background-image: url(../img/panda.jpg);
+    height: 300px;
+    position: relative;
+}
+
+.toy-text {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    writing-mode: vertical-lr;
+    color: white;
+    background-color: #3F5D45;
+    padding: 10px;
+    letter-spacing: 5px;
+}
+
+.toy-icon {
+    position: absolute;
+    top: 5px;
+    right: 25px;
+}
+
+.toy-wrap {
+    border: 0;
+}
+
+.toy-name {
+    border-right: 2px solid #EAF0ED;
+    padding: 10px;
+    letter-spacing: 5px;
+    margin-bottom: -10px;
+}
+
+.toy-price {
+    padding: 10px;
+    letter-spacing: 5px;
+    margin-bottom: -10px;
+}
+
+.btn-set {
+    color: #212529;
+    background-color: rgb(234, 240, 236);
+    border-color: #EAF0ED;
+}
+
+.btn-set:hover {
+    background-color: #DDDDDD;
+}

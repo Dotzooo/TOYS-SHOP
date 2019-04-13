@@ -1,0 +1,40 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../helpers/variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+
+    >.col,
+    >[class*="col-"] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+.login-text {
+    font-size: 36px;
+    letter-spacing: normal;
+    font-weight: bold;
+}
+
+.login-btn {
+    font-size: 24px;
+    color: #3F5D45;
+    font-weight: bold;
+}
+
+.social-info {
+    background-color: #EAF0ED;
+}
+
+.social-text {
+    color: #8DA291;
+}
+
+.social-btn {
+    color: #212529;
+    background-color: #fff;
+    border-color: #EAF0ED;
+}

@@ -1,0 +1,48 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../helpers/variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+
+    >.col,
+    >[class*="col-"] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+.bg-cover {
+    background-position: center center;
+    background-size: cover;
+}
+
+.order-title {
+    color: #8DA291;
+    background-color: #EAF0ED;
+}
+
+.order-body {
+    color: #8DA291;
+}
+
+.cart-body {
+    color: #8DA291;
+}
+
+.cart-title {
+    color: #8DA291;
+    background-color: #EAF0ED;
+}
+
+.cart-img {
+    height: 90px;
+    min-width: 110px;
+    background-image: url(../img/car.jpg);
+}
+
+.next-btn {
+    background-color: #FFE180;
+    border-color: #FFE180;
+}
